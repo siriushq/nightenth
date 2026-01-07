@@ -1,0 +1,78 @@
+/*
+ * SPDX-License-Identifier: BSD-3-Clause
+ * SPDX-FileCopyrightText: © 2025-2026 Sirius Global Limited.
+ *                         All rights reserved.
+ */
+
+/*
+@-moz-document domain("github.com") {
+*/
+
+body,
+:root[data-color-mode="dark"],
+:root[data-color-mode="auto"][data-dark-theme] {
+
+    /* background + text */
+    --bgColor-default: #000000;
+    --bgColor-muted: #090909;
+    --bgColor-emphasis: #111111;
+    
+    --fgColor-default: #e6e6e6;
+    --fgColor-muted: #9a9a9a;
+    --fgColor-accent: #3b82f6;
+    --fgColor-attention: #705f19;
+    --fgColor-success: #4ade80;
+  
+    /* borders + dividers */
+    --borderColor-default: #111111;
+    --borderColor-muted: #0f0f0f;
+    --borderColor-attention: #705f19;
+    --borderColor-success: #166534;
+    
+    /* underline */
+    --underlineNav-borderColor-active: #705f19;
+    --underlineNav-borderColor-hover: #b39414;
+
+    /* inputs, panels, code blocks */
+    --bgColor-inset: #000000;
+    --bgColor-neutral-muted: #090909;
+    --bgColor-success-muted: #022c22;
+    --bgColor-success-emphasis: #022c22;
+
+    /* buttons */
+    --button-default-bgColor-rest: #090909;
+    --button-default-bgColor-hover: #111111;
+    --button-default-borderColor-rest: #111111;
+
+    /* selection & highlights */
+    --control-checked-bgColor-rest: #58a6ff;
+    
+    /* overlays */
+    --overlay-bgColor: #000000;
+    --overlay-backdrop-bgColor: rgba(0, 0, 0, 0.85);
+
+    /* overlays - borders & shadows */
+    --overlay-borderColor: #111111;
+    --overlay-shadow: 0 0 0 1px #111111;
+
+    /* overlays - text */
+    --overlay-fgColor: #e6e6e6;
+    --overlay-fgColor-muted: #9a9a9a;
+
+    /* shadows */
+    --shadow-resting-small: none;
+    --shadow-resting-medium: none;
+    --shadow-resting-large: none;
+
+    --shadow-floating-small: 0 0 0 1px #111111;
+    --shadow-floating-medium: 0 0 0 1px #111111;
+    --shadow-floating-large: 0 0 0 1px #111111;
+}
+
+footer.footer {
+    display: none !important;
+} 
+
+/*
+}
+*/
