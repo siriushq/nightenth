@@ -3,3 +3,15 @@ siriushq/nightenth
 
 Black themed CSS styles for as many websites on the internet as possible.
 These are to be used with a user-style extension such as Stylus (for Chromium).
+
+All files have a comment header & footer containing code for supporting
+Mozilla-format import for user style extensions. These can be uncommented
+if you are using one of these extensions to load the stylesheet:
+
+	/*
+	@-moz-document domain("...") {
+	*/
+
+	/*
+	}
+	*/
